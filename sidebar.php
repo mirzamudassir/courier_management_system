@@ -21,7 +21,7 @@
               </p>
             </a>
           </li>     
-          <?php if($_SESSION['login_type'] == 1): ?>
+          <!-- <?php if($_SESSION['login_type'] == 1): ?>
           <li class="nav-item">
             <a href="#" class="nav-link nav-edit_branch">
               <i class="nav-icon fas fa-building"></i>
@@ -118,7 +118,28 @@
                 Reports
               </p>
             </a>
-          </li>  
+          </li>  -->
+          <!-- system settings -->
+          <li class="nav-item dropdown">
+            <a href="./index.php?page=system_settings" class="nav-link nav-settings">
+              <i class="nav-icon fas fa-gear"></i>
+              <p>
+                Settings
+              </p>
+            </a>
+          </li> 
+          <!-- system settings --> 
+
+          <!-- about -->
+          <li class="nav-item dropdown">
+            <a href="./index.php?page=about" class="nav-link nav-about">
+              <i class="nav-icon fas fa-help"></i>
+              <p>
+                About
+              </p>
+            </a>
+          </li> 
+          <!-- about -->
         </ul>
       </nav>
     </div>

@@ -122,7 +122,7 @@
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2023 <a href="https://www.b2bsystemsltd.com/" target="_blank">B2B Systems LTD</a>.</strong>
+    <strong>Copyright &copy; 2023 <a href="#" target="_blank"></a><?php echo $_SESSION['system']['name'] ?></strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b><?php echo $_SESSION['system']['name'] ?></b>
